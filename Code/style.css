@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+.container{
+    width: 90%; margin: auto auto;  
+    font-family: 'Ubuntu', sans-serif
+}
+header{
+    display: block;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+.nav_main{
+    
+    background-color: #222c59;
+    
+    
+}
+.nav_main_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo_name{
+    height: 40px;
+    font-family: 'Lobster', cursive;
+    font-size:x-large;
+    padding-left: 10px;
+}
+.Logo_name a{
+    color: white;
+    text-decoration: none;
+}
+.nav_main_ul{
+    display: flex;
+    list-style: none;
+}
+.nav_main_ul li{
+    margin: 0 12px;
+}
+.nav_main_ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav_sub_container{
+    display: flex;
+    justify-content: center;
+}
+.nav_sub_ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_sub_ul li{
+    margin: 0 12px;
+}
+.nav_sub_ul li a{
+    text-decoration: none;
+    color: black;
+}
