@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -17,15 +22,16 @@ header{
 }
 
 .navbar{
+    display: flex;
     width: 100%;
     position: fixed;
     left: 0;
+    flex-direction: column;
+    padding: 0 0;
 }
 .nav_main{
-    
+    width: 100%;
     background-color: #222c59;
-    
-    
 }
 .nav_main_container{
     display: flex;
@@ -54,9 +60,11 @@ header{
     color: white;
     text-decoration: none;
 }
+
 .nav_sub_container{
     display: flex;
     justify-content: center;
+    
 }
 .nav_sub_ul{
     display: flex;
@@ -67,8 +75,36 @@ header{
 }
 .nav_sub_ul li{
     margin: 0 12px;
+    padding: 10px 50px;
+    
 }
 .nav_sub_ul li a{
     text-decoration: none;
     color: black;
+    font-size: larger;
 }
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
