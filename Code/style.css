@@ -18,7 +18,6 @@ header{
 
 .navbar{
     width: 100%;
-    position: fixed;
     left: 0;
 }
 .nav_main{
@@ -75,4 +74,16 @@ header{
     text-decoration: none;
     color: black;
     font-size: larger;
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+}
+#slider img{
+    
 }
