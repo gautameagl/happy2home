@@ -49,10 +49,12 @@ header{
 }
 .nav_main_ul li{
     margin: 0 12px;
+    
 }
 .nav_main_ul li a{
     color: white;
     text-decoration: none;
+    
 }
 .nav_sub_container{
     display: flex;
@@ -67,8 +69,10 @@ header{
 }
 .nav_sub_ul li{
     margin: 0 12px;
+    padding: 5px 50px;
 }
 .nav_sub_ul li a{
     text-decoration: none;
     color: black;
+    font-size: larger;
 }
