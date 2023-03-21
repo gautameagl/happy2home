@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
-<body class="overflow-x-hidden">
-    <div> 
+<body>
     <header>
         <nav class="navbar">
             <section class="nav_main">
@@ -42,15 +42,31 @@
     <main>
         <section>
             <div id="slider">
+                <div class="search-container">
+                    <div class="city-dropdown">
+                      <select>
+                        <option value="new-york">New York</option>
+                        <option value="los-angeles">Los Angeles</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="houston">Houston</option>
+                        <option value="miami">Miami</option>
+                      </select>
+                    </div>
+                    <form class="search-box">
+                      <input type="text" placeholder="Search for properties">
+                      <button type="submit">Search</button>
+                    </form>
+                </div>
+                  
                 <figure>
-                    <img src="https://unsplash.com/photos/TRCJ-87Yoh0">
-                    <img src="Images\slider_image2.png">
-                    <img src="Images\slider_image3.png"> 
+                    <img src="Images\slider_image1.1.png">
+                    <img src="Images\slider_image1.1.png">
+                    <img src="Images\slider_image1.1.png">  
                 </figure>
+                <div id="dots"></div>
             </div>
         </section>
     </main>
     <footer> </footer>
-</div>
 </body>
 </html>
