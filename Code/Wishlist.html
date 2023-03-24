@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Document</title>
+	<title>Wishlist</title>
 </head>
 <body>
-    <header>
+	<header>
         <nav class="navbar">
             <section class="nav_main">
                 <div class="nav_main_container container">
@@ -39,35 +34,34 @@
             <hr>
         </nav>
     </header>
-    <main>
-        <section>
-            <div id="slider">
-                <div class="search-container">
-                    <div class="city-dropdown">
-                      <select>
-                        <option value="new-york">New York</option>
-                        <option value="los-angeles">Los Angeles</option>
-                        <option value="chicago">Chicago</option>
-                        <option value="houston">Houston</option>
-                        <option value="miami">Miami</option>
-                      </select>
-                    </div>
-                    <form class="search-box">
-                      <input type="text" placeholder="Search for properties">
-                      <button type="submit">Search</button>
-                    </form>
-                </div>
-                  
-                <figure>
-                    <img src="Images\slider_image1.1.png">
-                    <img src="Images\slider_image1.1.png">
-                    <img src="Images\slider_image1.1.png">  
-                </figure>
-                <div id="dots"></div>
-            </div>
-        </section>
-    </main>
-    <footer>
+	<main>
+		<h2>My Saved Properties</h2>
+		<ul>
+			<li>
+				<img src="property1.jpg" alt="Property 1">
+				<h3>Property 1</h3>
+				<p>123 Main St., Anytown, USA</p>
+				<p>$500,000</p>
+				<button>Remove from Wishlist</button>
+			</li>
+			<li>
+				<img src="property2.jpg" alt="Property 2">
+				<h3>Property 2</h3>
+				<p>456 Oak St., Anytown, USA</p>
+				<p>$750,000</p>
+				<button>Remove from Wishlist</button>
+			</li>
+			<li>
+				<img src="property3.jpg" alt="Property 3">
+				<h3>Property 3</h3>
+				<p>789 Maple St., Anytown, USA</p>
+				<p>$1,000,000</p>
+				<button>Remove from Wishlist</button>
+			</li>
+		</ul>
+		<p>Don't see your dream property on this list? <a href="#">Search</a> our listings and click the "Add to Wishlist" button to save it here for later.</p>
+	</main>
+	<footer>
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -102,6 +96,5 @@
           </div>
         </div>
       </footer>
-      
 </body>
 </html>

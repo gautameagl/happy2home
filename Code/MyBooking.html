@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Property Hunting - My Bookings</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		
+		body {
+			background-color: #f0f0f0;
+		}
+		
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+		
+		nav {
+			background-color: #666;
+			padding: 10px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		nav li {
+			margin: 0 10px;
+		}
+		
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			transition: color 0.2s ease;
+		}
+		
+		nav a:hover {
+			color: #f0f0f0;
+		}
+		
+		main {
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 20px;
+		}
+		
+		th, td {
+			padding: 10px;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+		
+		th {
+			background-color: #666;
+			color: #fff;
+		}
+		
+		tr:hover {
+			background-color: #f0f0f0;
+		}
+		
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		.footer-logo img {
+			width: 100px;
+		}
+		
+		.footer-contact {
+			margin-top: 20px;
+			text-align: center;
+		}
+		
+		.footer-social-media {
+			margin-top: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.footer-social-media a {
+			margin: 0 10px;
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-color: #fff;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 30px;
+			transition: background-color 0.2s ease;
+		}
+		
+		.footer-social-media a:hover {
+			background-color: #f0f0f0;
+		}
+		
+		.footer-sitemap {
+			margin-top: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.footer-sitemap a {
+			margin: 0 10px;
+			color: #fff;
+			text-decoration: none;
+			transition: color 0.2s ease;
+		}
+		
+		.footer-sitemap a:hover {
+			color: #f0f0f0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+        <nav class="navbar">
+            <section class="nav_main">
+                <div class="nav_main_container container">
+                    <div class="Logo_name">
+                        <a href="url">happy2home</a>
+                    </div>
+                    <div class="nav_main_content">
+                        <ul class="nav_main_ul">
+                            <li><a href="url">My Booking</a></li>
+                            <li><a href="url">Sign In</a></li>
+                            <li><a href="url">Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="nav_sub">
+                   <div class="nav_sub_container container">
+                    <ul class="nav_sub_ul">
+                        <li><a href="url">Home</a></li>
+                        <li><a href="url">Rent</a></li>
+                        <li><a href="url">About</a></li>
+                        <li><a href="url">Contact</a></li>
+                        <li><a href="url">Wishlist</a></li>
+                    </ul>
+                   </div>
+            </section>
+            <hr>
+        </nav>
+    </header>
+
+<main>
+	<h2>Welcome, John Doe!</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Property Name</th>
+				<th>Check-In Date</th>
+				<th>Check-Out Date</th>
+				<th>Total Price</th>
+				<th>Status</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Beachside Villa</td>
+				<td>2023-04-15</td>
+				<td>2023-04-20</td>
+				<td>$1000</td>
+				<td>Confirmed</td>
+			</tr>
+			<tr>
+				<td>Mountain View Lodge</td>
+				<td>2023-05-01</td>
+				<td>2023-05-05</td>
+				<td>$800</td>
+				<td>Pending</td>
+			</tr>
+			<tr>
+				<td>City Centre Apartment</td>
+				<td>2023-06-10</td>
+				<td>2023-06-15</td>
+				<td>$1200</td>
+				<td>Cancelled</td>
+			</tr>
+		</tbody>
+	</table>
+</main>
+
+<footer>
+	<div class="footer-logo">
+		<img src="logo.png" alt="Property Hunting Logo">
+	</div>
+	
+	<div class="footer-contact">
+		<p>Contact us at:</p>
+		<p>Phone: +1 123-456-7890</p>
+		<p>Email: info@propertyhunting.com</p>
+	</div>
+	
+	<div class="footer-social-media">
+		<a href="#"><img src="facebook.png" alt="Facebook"></a>
+		<a href="#"><img src="twitter.png" alt="Twitter"></a>
+		<a href="#"><img src="instagram.png" alt="Instagram"></a>
+	</div>
+	
+	<div class="footer-sitemap">
+		<a href="#">Home</a>
+		<a href="#">Listings</a>
+		<a href="#">About</a>
+		<a href="#">Contact Us</a>
+	</div>
+</footer>
+</body>
+</html>
