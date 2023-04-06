@@ -269,7 +269,7 @@ animation-fill-mode: forwards;
   position: absolute;
   left: 0;
   width: 100%;
-  top: 881px;
+  top: 773px;
   height: 300px;
   text-align: center;
   color: #222c59;
@@ -314,4 +314,103 @@ animation-fill-mode: forwards;
   display: inline-block;
   width: 244px;
   height: 33px;
+}
+.aboutsection{
+  position: absolute;
+  width: 100%;
+  top: 473px;
+  height: 300px;
+}
+.read-more-button-parent {
+  position: absolute;
+  top: 80.1px;
+  left: 192px;
+  width: 933.09px;
+  height: 223.54px;
+}
+.property-owner {
+  position: absolute;
+  top: 0px;
+  left: 525px;
+  height: 87px;
+  font-size: var(--font-size-6xl);
+  width: auto;
+}
+.post-property-ad {
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  text-decoration: underline;
+  width: 162px;
+  background-color: #222c59;
+  text-align: center;
+  height: 25px;
+  font-size: large;
+  color: white;
+}
+.property-owner-child {
+  position: absolute;
+  top: 8px;
+  left: 36px;
+  background-color: var(--color-darkslateblue-100);
+  width: 254px;
+  height: 90px;
+  
+}
+.bg-icon1{
+  top:0;
+  height: 300px;
+  position: absolute;
+  left:0;
+  width: 100%;
+}
+.are-you-a{
+  position: absolute;
+  width: 335px;
+  top:0;
+  left: 0;
+  text-decoration: underline;
+  display: inline-block;
+  color: #fb380e;
+  height: 40px;
+  font-size: large;
+}
+.happy2home{
+  position: absolute;
+  display: inline-block;
+  top:0;
+  left: 462.9px;
+  font-size: x-large;
+  color:#222c59;
+  text-align: center;
+  width: 315.64px;
+  height: 29.4px;
+ 
+}
+.read-more{
+  position: absolute;
+  top:-19px;
+  left: 0px;
+  text-decoration: underline;
+  display: inline-block;
+  width: 100px;
+  height: 24px;
+  text-align: center;
+  color: white;
+  background-color: #222c59;
+  font-size: large;
+}
+.image-1-icon2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 309.09px;
+  height: 219.41px;
+}
+.image{
+  position:absolute;
+  top:-27.5px;
+  left:0;
+  width:309.09px;
+  height: 219.41px;
 }

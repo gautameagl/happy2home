@@ -562,33 +562,12 @@
   width: 244px;
   height: 33px;
 }
-.bg-icon1,
-.read-more,
-.suggestion {
-  position: absolute;
-  left: 0;
-  width: 100%;
-}
-.suggestion {
-  top: 881px;
-  height: 300px;
-  text-align: center;
-  color: #222c59;
-  font-size:x-large;
-}
-.bg-icon1,
-.read-more {
-  top: 0;
-  height: 413px;
-}
-.read-more {
-  top: 5px;
-  left: 20px;
-  text-decoration: underline;
-  display: inline-block;
-  width: 108px;
-  height: 24px;
-}
+
+
+
+
+
+
 .read-more-button {
   position: absolute;
   top: 185.9px;
@@ -597,7 +576,7 @@
   width: 143px;
   height: 34px;
 }
-.happy2home,
+
 .looking-for-your {
   position: absolute;
   display: inline-block;
@@ -610,16 +589,7 @@
   width: 562.91px;
   height: 175.52px;
 }
-.happy2home {
-  top: 0;
-  left: 506.91px;
-  font-size: var(--font-size-21xl);
-  color: var(--color-darkslateblue-100);
-  text-align: center;
-  width: 315.64px;
-  height: 75.37px;
-}
-.image,
+.imagee,
 .image-1-icon1 {
   position: absolute;
   top: 0;
@@ -627,14 +597,13 @@
   width: 309.09px;
   height: 219.41px;
 }
-.image {
+.imagee{
   background-color: #ccc;
 }
 .image-1-icon1 {
   object-fit: cover;
 }
-.about-section,
-.read-more-button-parent {
+.about-section{
   position: absolute;
   top: 162.1px;
   left: 192px;
@@ -647,34 +616,10 @@
   width: 1440px;
   height: 413px;
 }
-.property-owner-child {
-  position: absolute;
-  top: 42px;
-  left: 36px;
-  background-color: var(--color-darkslateblue-100);
-  width: 254px;
-  height: 45px;
-}
-.post-property-ad {
-  position: absolute;
-  top: 50px;
-  left: 59px;
-  text-decoration: underline;
-}
-.are-you-a,
-.property-owner {
-  position: absolute;
-  width: 335px;
-}
-.are-you-a {
-  top: 0;
-  left: 0;
-  text-decoration: underline;
-  display: inline-block;
-  color: #fb380e;
-  height: 40px;
-}
-.property-owner {
+
+
+
+.property-owner__{
   top: 510px;
   left: 549px;
   height: 87px;
