@@ -48,18 +48,7 @@
   width: 195.4px;
   height: 21.97px;
 }
-.vector-icon2 {
-  position: absolute;
-  height: 16.94%;
-  width: 10.68%;
-  top: 73.41%;
-  right: 89.32%;
-  bottom: 9.65%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
+
 .heyhappy2homegmailcom {
   position: absolute;
   top: 105px;
@@ -68,13 +57,7 @@
   width: 286.89px;
   height: 36.67px;
 }
-.contact-details {
-  position: absolute;
-  top: 171px;
-  left: 891px;
-  width: 355.89px;
-  height: 141.67px;
-}
+
 .logo-child {
   top: 4.55px;
   left: 2.37px;
@@ -114,11 +97,14 @@
   left: 2.18px;
   font-size: var(--font-size-6xl);
   font-family: var(--font-inter);
-  color: var(--color-white);
+  color: white;
   text-align: left;
   display: inline-block;
   width: 238.55px;
   height: 48.69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .contact-us1,
 .submit1 {
@@ -148,12 +134,12 @@
 .your-message {
   border: 0;
   font-family: var(--font-inter);
-  position: absolute;
+  
 }
 .your-message {
   font-size: var(--font-size-6xl);
-  background-color: var(--color-gainsboro);
-  top: 195.91px;
+  background-color: white;
+  
   left: 0;
   width: 352.73px;
   height: 96.8px;
@@ -165,14 +151,14 @@
   width: 264px;
 }
 .your-email {
-  background-color: var(--color-gainsboro);
-  top: 137.95px;
+  background-color: white;
+  
   height: 41.73px;
 }
 .full-name {
   font-weight: 300;
-  background-color: transparent;
-  top: 79.41px;
+  background-color: white;
+  
   height: 60.28px;
 }
 .contact-us {
@@ -182,26 +168,7 @@
   width: 352.73px;
   height: 352.41px;
 }
-.our-pages,
-.sitemap1 {
-  position: absolute;
-  display: inline-block;
-}
-.sitemap1 {
-  top: 0;
-  left: 0;
-  font-size: 30px;
-  color: #fffefe;
-  width: 193px;
-  height: 71px;
-}
-.our-pages {
-  top: 44px;
-  left: 9px;
-  font-size: 15px;
-  width: 117px;
-  height: 24px;
-}
+
 .about,
 .contact,
 .wishlist {
@@ -227,8 +194,7 @@
   left: 8px;
 }
 .home,
-.rent,
-.sitemap {
+.rent{
   position: absolute;
 }
 .home {
@@ -239,33 +205,14 @@
   width: 114px;
   height: 29px;
 }
-.sitemap {
-  top: 30px;
-  left: 623px;
-  width: 193px;
-  height: 257px;
-  font-size: var(--font-size-xs);
-}
-.copyright-2023-all {
-  position: absolute;
-  top: 11px;
-  left: 466px;
-  font-weight: 300;
-  display: inline-block;
-  width: 485px;
-  height: 37px;
-}
-.copyright,
+
+
+
 .fb-icon {
   position: absolute;
   left: 0;
 }
-.copyright {
-  top: 444px;
-  background-color: var(--color-black);
-  width: 1440px;
-  height: 48px;
-}
+
 .fb-icon {
   top: 10px;
   width: 143px;
@@ -406,7 +353,7 @@
   color: var(--color-gray-100);
 }
 .bg-icon,
-.footer-section,
+.footer-section21,
 .pg-child {
   position: absolute;
   top: 1300px;
